@@ -37,8 +37,7 @@ for line in var:
     print('длинна строки: {}\n'.format(len(line)))
 ```
 
-'''Определить, какие из слов «attribute», «класс», «функция», «type» 
-невозможно записать в байтовом типе'''
+### Определить, какие из слов «attribute», «класс», «функция», «type» невозможно записать в байтовом типе
 
 ```
 var2 = b'attribute'
@@ -47,12 +46,12 @@ var4 = b'функция'
 var5 = b'type'   
 ```
 на строки записанные на кириллице вылетает исключение
-'''File "/Users/alexander/pyServer01/pe_server01.py", line 46
+ ```
+ File "/Users/alexander/pyServer01/pe_server01.py", line 46
     var3 = b'класс'
           ^
 SyntaxError: bytes can only contain ASCII literal characters.'''
-
-
+```
 ### Преобразовать слова «разработка», «администрирование», «protocol», «standard» из строкового представления в байтовое и выполнить обратное преобразование (используя методы encode и decode).'
 
 ```
